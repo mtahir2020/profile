@@ -1,0 +1,123 @@
+body {
+  background-color: aliceblue;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .socials p {
+    font-size: 30px;
+  }
+
+  img {
+    min-width: 70%;
+    min-height: 70%;
+    border-radius: 20%;
+  }
+
+  .card p {
+    font-size: 24px;
+  }
+
+  .card {
+    margin: 0 auto;
+    min-width: 90%;
+    border-radius: 2%;
+    box-shadow: 0px 1px 10px grey;
+    background-color: white;
+    text-align: center;
+  }
+
+  .banner {
+    background-color: #234038;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    min-width: 90%;
+    margin: 30px auto;
+    border-radius: 10px;
+  }
+}
+
+
+.image {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  border-radius: 20%;
+}
+
+body h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  color: #1f332d;
+  padding: 20px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  font-size: 1.25rem;
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+
+.fa-face-sunglasses {
+  background-color: yellow;
+}
+
+.card {
+  margin: 35px auto;
+  width: 70%;
+  padding: 30px;
+  border-radius: 2%;
+  box-shadow: 0px 1px 10px grey;
+  background-color: white;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.socials {
+  margin: 40px;
+}
+
+.banner {
+  background-color: #234038;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  width: 50%;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.banner h2 {
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  color: white;
+  padding: 10px;
+  }
